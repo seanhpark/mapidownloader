@@ -20,7 +20,7 @@ import org.apache.http.util.EntityUtils;
 /**
  * Created by spark on 2017. 6. 15..
  * java -server -Xms512m -Xmx512m vcSbcVideoFileDown
- * SBC의 비디오 파일 백업을 위한 실행 클래스
+ * VC의 비디오 파일 백업을 위한 실행 클래스
  * spark@brightcove.com
  * 1. vcSbcVideoListWrite로 작성된 비디오 리스트 이름 넣기
  * 2. 시작할 첫번째 레코드

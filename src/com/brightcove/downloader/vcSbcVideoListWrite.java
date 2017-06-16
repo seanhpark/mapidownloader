@@ -23,12 +23,12 @@ import com.google.gson.Gson;
 
 /**
  * Created by spark on 2017. 6. 15..
- * SBC의 비디오 파일 백업을 위한 실행 클래스
+ * VC의 비디오 파일 백업을 위한 실행 클래스
  * spark@brightcove.com
  */
 public class vcSbcVideoListWrite {
 
-    private static String apiToken = "HIDC2nh07qh3z5kX5iNxmRa9Q711oWuTBsPyTRxd4pXqemN-nqp5Cw..";
+    private static String apiToken = "api read token with rendition url access";
     private static String videoFields = "accountId,id,referenceId,name,length,creationDate,renditions";
 
 
@@ -74,7 +74,7 @@ public class vcSbcVideoListWrite {
         }
     }
 
-    public static boolean isNumeric(String s) {
+    private static boolean isNumeric(String s) {
 
         return s.matches("\\d+");
     }
@@ -88,7 +88,8 @@ public class vcSbcVideoListWrite {
         try {
 
             String api = "http://api.brightcove.com/services/library?command=find_all_videos&video_fields=accountId&page_number=0&page_size=1&get_item_count=true&token="+apiToken;
-
+            String test = "git test";
+            String test2 = "git test 2";
             HttpGet httpGet = new HttpGet(api);
 
 //            System.out.println("executing request " + httpGet.getURI());

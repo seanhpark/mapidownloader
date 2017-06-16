@@ -1,0 +1,4 @@
+
+170615-16:35:17 -- Executing request http://api.brightcove.com/services/library?command=find_all_videos&video_fields=accountId,id,referenceId,name,length,creationDate,renditions&media_delivery=http&page_number=0&page_size=10&sort_by=CREATION_DATE&sort_order=DESC&get_item_count=true&token=HIDC2nh07qh3z5kX5iNxmRa9Q711oWuTBsPyTRxd4pXqemN-nqp5Cw..
+170615-16:35:18 -- ----------------------------------------
+170615-16:35:18 -- 1 stream writing is done.
